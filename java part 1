@@ -1,0 +1,16 @@
+public class Array {
+    
+public static void main(String[] args) {
+        double[] a = {19, 12., 16, 200, 13};
+        double total = 0;
+        int i;
+
+        for(i = 0; i < a.length; i++){
+        	total = total + a[i];
+        }
+
+        double average = total / a.length;
+
+        System.out.println("The average is: " + average);
+    }
+}
