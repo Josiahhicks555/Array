@@ -1,7 +1,7 @@
 public class Array {
     
 public static void main(String[] args) {
-        double[] a = {19, 12., 16, 200, 13};
+        double[] a = {19, 12., 16, 200, 13, 43, 64, 9, 23, 66};
         double total = 0;
         int i;
 
